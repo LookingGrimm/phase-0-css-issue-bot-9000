@@ -1,23 +1,28 @@
+/* body */
 body {
-  background pink;
+  background: pink; /* Correct background for body */
 }
 
+/* h1 */
 h1 {
   color: blue;
-  fontsize: 3em; 
+  font-size: 3em; /* Correct font-size for h1 */
 }
 
+/* h2 */
 h2 {
   color: green;
-  font-weight: normal
+  font-weight: normal; /* Added missing semicolon */
   font-style: italic;
 }
 
+/* .completed */
 .completed {
-  font-family: 12px;
+  font-size: 12px; /* Corrected to font-size */
 }
 
+/* #tasks .completed */
 #tasks .completed {
-  backgound: #ccc;
+  background: #ccc; /* Corrected background property */
   text-decoration: underline;
 }
